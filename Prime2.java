@@ -25,7 +25,7 @@ public class Prime2
    public static void main(String[] args) 
    {  
        Scanner s = new Scanner(System.in);  
-       System.out.println("Enter a number : ");  
+       System.out.print("Enter a number : ");  
        int n = s.nextInt();  
        if (checkPrime(n)) //Function call
        {  
