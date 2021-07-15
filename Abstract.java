@@ -42,7 +42,7 @@ class arithmetic extends calculate
 public class Abstract {
     public static void main(String args[]) 
     {
-      arithmetic a = new arithmetic(30,20);     // Initializing Objects.
+      arithmetic a = new arithmetic(30,20);     // Initializing Object.
       //Calling Methods
       a.addition();
       a.subtraction();
