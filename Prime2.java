@@ -7,7 +7,7 @@ public class Prime2
 {  
     public static boolean checkPrime(int n) 
     {  
-        int m = (int)Math.sqrt(n); //Using Math Function
+        int m = (int)Math.sqrt(n); //Using Math Function and Typeasting from double to int
         //System.out.println(m);
         if (n <= 1) 
         {  
