@@ -8,7 +8,7 @@ public class Prime1
     public static void main(String args[]) 
     {
         Scanner s = new Scanner(System.in);  
-        System.out.println("Enter a number : ");  
+        System.out.print("Enter a number : ");  
         int n = s.nextInt();
         int flag=0;
         if(n < 2) //To check for negative numbers 
